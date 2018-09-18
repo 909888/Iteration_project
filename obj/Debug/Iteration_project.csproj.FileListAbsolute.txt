@@ -5,3 +5,10 @@ C:\Users\Student\source\repos\Iteration_project\Iteration_project\obj\Debug\Iter
 C:\Users\Student\source\repos\Iteration_project\Iteration_project\obj\Debug\Iteration_project.csproj.CoreCompileInputs.cache
 C:\Users\Student\source\repos\Iteration_project\Iteration_project\obj\Debug\Iteration_project.exe
 C:\Users\Student\source\repos\Iteration_project\Iteration_project\obj\Debug\Iteration_project.pdb
+C:\Tech_Academy_Projects\Iteration_project\bin\Debug\Iteration_project.exe.config
+C:\Tech_Academy_Projects\Iteration_project\bin\Debug\Iteration_project.exe
+C:\Tech_Academy_Projects\Iteration_project\bin\Debug\Iteration_project.pdb
+C:\Tech_Academy_Projects\Iteration_project\obj\Debug\Iteration_project.csprojAssemblyReference.cache
+C:\Tech_Academy_Projects\Iteration_project\obj\Debug\Iteration_project.csproj.CoreCompileInputs.cache
+C:\Tech_Academy_Projects\Iteration_project\obj\Debug\Iteration_project.exe
+C:\Tech_Academy_Projects\Iteration_project\obj\Debug\Iteration_project.pdb

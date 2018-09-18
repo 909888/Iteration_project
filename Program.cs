@@ -85,7 +85,7 @@ namespace Iteration_project
 
 
 
-            /////////////////// example 6  
+            /////////////////// example 6  and 7, 8
 
 
             //List<string> greetIngs = new List<string>();
@@ -100,31 +100,45 @@ namespace Iteration_project
             //string userInput = Console.ReadLine();
 
 
-            //if (userInput == greetIngs[0])
+            //for (int i = 0; i <greetIngs.Count; i++)
             //{
-            //    Console.WriteLine("Yes, thats one way to say greet people!");
-            //}
-            //else if (userInput == greetIngs[1])
+            //    if (userInput == greetIngs[i])
+            //    {
+            //        Console.WriteLine("Yes, thats one way to say greet people! {0} ", i);
+            //        break;
+            //    }
+            //    else 
+            //    {
+            //        Console.WriteLine("Thats not in the index.");
+            //    } 
+
+
+
+
+            //else if (userInput == greetIngs[1]) //this doesnt work right
             //{
-            //    Console.WriteLine("Nice, your Spanish teacher would be proud!");
+            //    Console.WriteLine("Nice {0}, your Spanish teacher would be proud!", i);
             //}
             //else if (userInput == greetIngs[2])
             //{
-            //    Console.WriteLine("You speak german? Thats cool!");
+            //    Console.WriteLine("You speak german?{0}  Thats cool!", i);
             //}
             //else if (userInput == greetIngs[3])
             //{
-            //    Console.WriteLine("Sure, a really simple greet");
+            //    Console.WriteLine("Sure, a really simple greet {0}", i);
             //}
             //else if (userInput == greetIngs[4])
             //{
-            //    Console.WriteLine("Yo! a very popular acknowledgment amongs young folk!");
+            //    Console.WriteLine("Yo! a very popular acknowledgment amongs young folk! {0}", i);
+            //}
+
             //}
             //Console.ReadLine();
 
 
 
-            /////////////////// example 7  
+
+            /////////////////// example 7  //dont do this. wrong code
 
 
             //List<string> greetIngs = new List<string>();
@@ -167,7 +181,7 @@ namespace Iteration_project
 
 
 
-            /////////////////// example 8  
+            /////////////////// example 8   //dont do this. wrong code
 
 
             //List<string> greetIngs = new List<string>();
@@ -234,9 +248,25 @@ namespace Iteration_project
 
             //Console.WriteLine("What are some ways to greet someone?");
             //string userInput = Console.ReadLine();
-            //string i = greetIngs[0];
+            ////string i = greetIngs[0];
             //int multYos = greetIngs.IndexOf("Yo");
 
+
+            //for (int i = 0; i < greetIngs.Count; i++)
+            //{
+            //    if (userInput == greetIngs[i])
+            //    {
+            //        Console.WriteLine(greetIngs[i] + i);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("This input doesnt match the index. Start over.");
+            //    }
+
+                //Console.WriteLine(greetIngs[i] + i);
+
+            //}
+            //Console.ReadLine();
 
 
             //if (userInput == greetIngs[0])
@@ -256,10 +286,10 @@ namespace Iteration_project
             //{
             //    Console.WriteLine("Sure, a really simple greet");
             //}
-            ////else if (userInput == greetIngs[4])
-            ////{
-            ////    Console.WriteLine("Yo! a very popular acknowledgment amongs young folk!");
-            ////}
+            //else if (userInput == greetIngs[4])
+            //{
+            //    Console.WriteLine("Yo! a very popular acknowledgment amongs young folk!");
+            //}
             //else
             //{
             //    Console.WriteLine("No! thats not a way to greet someone! By my terms!");
@@ -329,12 +359,12 @@ namespace Iteration_project
 
 
             /*namesPeople.Add("Kyle");*/ //0
-            /*namesPeople.Add("Clyde");*/  //1
-            /*namesPeople.Add("Kenny");*/ //2
-            /*namesPeople.Add("Eric");*/ //3
-            /*namesPeople.Add("Butters"); //4
-            /*namesPeople.Add("Butters");*/ //5
-            /*namesPeople.Add("Stan");*/ //6
+                                         /*namesPeople.Add("Clyde");*/  //1
+                                                                        /*namesPeople.Add("Kenny");*/ //2
+                                                                                                      /*namesPeople.Add("Eric");*/ //3
+                                                                                                                                   /*namesPeople.Add("Butters"); //4
+                                                                                                                                   /*namesPeople.Add("Butters");*/ //5
+                                                                                                                                                                   /*namesPeople.Add("Stan");*/ //6
 
             //namesPeople2.Add("");
             //namesPeople2.Add("");
@@ -350,7 +380,7 @@ namespace Iteration_project
             //    if (namesPeople2.Contains(name))
             //    {   
             //        Console.WriteLine("{0} appears already ",name);
-                    
+
             //    }
             //    else
             //    {
